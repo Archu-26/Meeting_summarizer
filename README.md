@@ -228,38 +228,3 @@ meeting_summary_generator/
     ├── test_meeting_summarizer.py
     └── test_speech_transcriber.py
 ```
-
-## Testing
-
-You can run the unit tests with the following command:
-
-```bash
-python -m unittest discover  tests
-```
-
-**Note:** Running the tests for `speech_transcriber` and `meeting_summarizer` will consume tokens from your OpenAI API quota, so use it judiciously to avoid running out of your allocated tokens.
-
-## TODO
-
-- [ ] Add support for other video formats
-- [ ] Add support for other audio formats
-- [ ] Rewrite the tests to use mocks instead of the actual OpenAI API
-- [ ] Add support for other Transformers models
-- [ ] Add support for other prompts and summary structures
-- [ ] Add support for other languages and automatic language detection
-- [ ] Make the text in the terminal more user-friendly
-- [ ] Test for other operating systems
-
-## Acknowledgements
-
-- [OpenAI](https://openai.com)
-- [MoviePy](https://zulko.github.io/moviepy)
-- [Pydub](https://github.com/jiaaro/pydub)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Contact
-
-Sami Mhidia - sami.mhidia@jarvisator.com
